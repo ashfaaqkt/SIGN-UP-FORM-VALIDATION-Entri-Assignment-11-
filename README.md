@@ -12,7 +12,7 @@ signup-form-validation/
 │   └── styles.css   # Custom CSS styles (Blue gradient theme)
 ├── js/
 │   └── validation.js # JavaScript for form validation
-└── README.md        # Project documentation
+README.md        # Project documentation
 ```
 
 ## Features
