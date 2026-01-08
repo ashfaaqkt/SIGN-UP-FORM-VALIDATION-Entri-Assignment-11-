@@ -1,5 +1,5 @@
 # Sign Up Form Validation
-## Entri Elevate Module End Assignment (11)
+## Entri Elevate Module 2 End Assignment (11)
 ### By Ashfaaq Feroz Muhammad
 
 This project is a sleek, responsive Sign Up form built with HTML, CSS, Bootstrap, and JavaScript. It features client-side validation to ensure data integrity and user experience.
