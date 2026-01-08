@@ -1,0 +1,116 @@
+/* Body Style */
+body {
+    background: radial-gradient(circle at 10% 20%, rgb(0, 93, 178) 0%, rgb(0, 168, 255) 90%);
+    min-height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #fff;
+}
+
+/* Card Design */
+.card {
+    background: rgba(255, 255, 255, 0.15);
+
+    backdrop-filter: blur(25px);
+
+    -webkit-backdrop-filter: blur(25px);
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    border-radius: 24px;
+
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+
+}
+
+h2.text-primary {
+    color: #fff !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.text-muted {
+    color: rgba(255, 255, 255, 0.8) !important;
+
+}
+
+.form-label {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    margin-left: 4px;
+}
+
+
+.form-control {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    color: #fff;
+    backdrop-filter: blur(5px);
+    transition: all 0.3s ease;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.form-control:focus {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+/* Text/Button (Eye Icon) */
+.input-group .btn-outline-secondary {
+    border-color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.8);
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.input-group .btn-outline-secondary:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Checkbox Styling */
+.form-check-input {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.form-check-input:checked {
+    background-color: #fff;
+    border-color: #fff;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%230072ff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+}
+
+.form-check-label {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.btn-primary {
+    background: rgba(255, 255, 255, 0.9);
+    color: #0072ff;
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    padding: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:hover {
+    background: #fff;
+    color: #005bb5;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Validation Feedback Color */
+.invalid-feedback {
+    color: #ffcccc;
+
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
