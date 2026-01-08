@@ -7,12 +7,12 @@ This project is a sleek, responsive Sign Up form built with HTML, CSS, Bootstrap
 ## Project Structure
 ```
 signup-form-validation/
-├── index.html       # Main HTML file containing the form
+├── index.html       
 ├── css/
-│   └── styles.css   # Custom CSS styles (Blue gradient theme)
+│   └── styles.css   
 ├── js/
-│   └── validation.js # JavaScript for form validation
-README.md        # Project documentation
+│   └── validation.js 
+README.md        
 ```
 
 ## Features
